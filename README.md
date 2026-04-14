@@ -1,36 +1,37 @@
-# 🔍 Advanced Retrieval Strategies with LlamaIndex & watsonx.ai
+# 🦙 Advanced Retrievers in LlamaIndex — IBM Watsonx RAG
 
-[![LlamaIndex](https://img.shields.io/badge/Powered%20by-LlamaIndex-blue)](https://www.llamaindex.ai/)
-[![IBM Watsonx](https://img.shields.io/badge/Model-IBM%20watsonx.ai-purple)](https://www.ibm.com/watsonx)
-[![Python](https://img.shields.io/badge/Language-Python-yellow)](https://www.python.org/)
+![Language](https://img.shields.io/badge/Language-Python%203.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![Framework](https://img.shields.io/badge/Framework-LlamaIndex%200.12-FF6B35?style=flat-square)
+![LLM](https://img.shields.io/badge/LLM-IBM%20Granite%203.3%208B-052FAD?style=flat-square&logo=ibm&logoColor=white)
+![Embeddings](https://img.shields.io/badge/Embeddings-HuggingFace%20%2B%20BM25-2E7D32?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square)
 
-This project explores **Advanced Information Retrieval** techniques using the LlamaIndex framework and IBM watsonx.ai foundation models. It covers sophisticated search strategies designed to enhance **Retrieval-Augmented Generation (RAG)** applications.
+## 📌 Project Overview
+Comprehensive exploration of **6 advanced LlamaIndex retrieval techniques** using IBM Granite 3.3 8B and HuggingFace embeddings. Covers everything from basic vector search to sophisticated QueryFusion with RRF, Relative Score, and Distribution-Based fusion techniques for production RAG.
 
----
+**Domain:** Advanced RAG — LlamaIndex  
+**LLM:** IBM Granite 3.3 8B (Watsonx)  
+**Embeddings:** HuggingFace SentenceTransformers  
 
-## 🌟 Key Features & Retrievers
-We implement and compare several advanced retrieval methods to improve accuracy and context preservation:
+## 🔑 6 Retriever Types Covered
 
-| Retriever Type | Core Functionality | Best Use Case |
-| :--- | :--- | :--- |
-| **Vector Index** | Semantic search based on vector embeddings. |General Q&A and RAG. |
-| **BM25** | Keyword-based search using exact term matching. | Technical documents. |
-| **Document Summary** | Filters documents based on generated summaries before retrieval. | Large, diverse document sets. |
-| **Auto Merging** | Consolidates child nodes into parent nodes to preserve context. | Long, complex documents. |
-| **Recursive** | Follows references (like citations) across document layers. | Research papers. |
-| **Query Fusion** | Combines results from multiple retrievers using fusion strategies. | Ambiguous or complex queries. |
+| Retriever | Technique | Use Case |
+|---|---|---|
+| **Vector Index** | Semantic similarity | Foundation retrieval |
+| **BM25** | Keyword ranking with stemming | Precise keyword search |
+| **Document Summary Index** | LLM + embedding summary routing | Intelligent doc selection |
+| **Auto Merging** | Hierarchical context preservation | Long document context |
+| **Recursive** | Multi-level reference following | Nested documents |
+| **QueryFusion** | RRF + Relative Score + Distribution fusion | Production hybrid RAG |
 
----
+## 🎓 Skills Demonstrated
+LlamaIndex · 6 advanced retriever types · QueryFusion (RRF, Relative Score) · IBM Granite · HuggingFace embeddings · BM25 · Auto-merging · Production RAG pipelines
 
-## 🛠️ Advanced Fusion Strategies
-We explore sophisticated merging techniques supported by LlamaIndex:
-* **Reciprocal Rank Fusion (RRF):** Robust ranking without relying on score magnitudes.
-* **Relative Score Fusion:** Normalizes scores to preserve retriever confidence.
-* **Distribution-Based Fusion:** Uses statistical normalization (z-scores) for score variability.
+## 📛 Suggested Name & Description
+**Name:** `llamaindex-advanced-retrievers`  
+**Description:** `6 LlamaIndex advanced retrieval techniques — Vector, BM25, Document Summary, Auto Merging, Recursive & QueryFusion (RRF) using IBM Granite 3.3 8B for production RAG`  
+**Topics:** `llamaindex` `rag` `ibm-watsonx` `granite` `bm25` `vector-search` `query-fusion` `huggingface` `python` `retrieval`
 
----
-
-## ⚙️ Setup & Requirements
-To run the notebook locally, install the following:
-```bash
-pip install llama-index llama-index-llms-ibm llama-index-embeddings-huggingface rank-bm25 PyStemmer ibm-watsonx-ai
+## 🤝 Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Leela%20A-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leela-a)
+[![Gmail](https://img.shields.io/badge/Gmail-attotaleelaissak@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:attotaleelaissak@gmail.com)
