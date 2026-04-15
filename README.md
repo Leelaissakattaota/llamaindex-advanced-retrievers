@@ -27,11 +27,6 @@ Comprehensive exploration of **6 advanced LlamaIndex retrieval techniques** usin
 ## 🎓 Skills Demonstrated
 LlamaIndex · 6 advanced retriever types · QueryFusion (RRF, Relative Score) · IBM Granite · HuggingFace embeddings · BM25 · Auto-merging · Production RAG pipelines
 
-## 📛 Suggested Name & Description
-**Name:** `llamaindex-advanced-retrievers`  
-**Description:** `6 LlamaIndex advanced retrieval techniques — Vector, BM25, Document Summary, Auto Merging, Recursive & QueryFusion (RRF) using IBM Granite 3.3 8B for production RAG`  
-**Topics:** `llamaindex` `rag` `ibm-watsonx` `granite` `bm25` `vector-search` `query-fusion` `huggingface` `python` `retrieval`
-
 ## 🤝 Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Leela%20A-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leela-a)
 [![Gmail](https://img.shields.io/badge/Gmail-attotaleelaissak@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:attotaleelaissak@gmail.com)
